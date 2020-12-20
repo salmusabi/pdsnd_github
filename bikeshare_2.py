@@ -20,7 +20,9 @@ def get_filters():
 
 
     # get user input for month (all, january, february, ... , june)
-
+months = ['January','February','March','April','May','June','July','August','September','October','November','December']
+month = raw_input('Month (1-12): ')
+print month_name
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
 
