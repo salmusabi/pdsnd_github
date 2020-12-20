@@ -1,11 +1,11 @@
 ### Date created
-20 December, 2020
+December 20th, 2020
 
 ### Project Title
 Docs
 
 ### Description
-Third modification
+Describe what your project is about and what it does
 
 ### Files used
 Include the files used
