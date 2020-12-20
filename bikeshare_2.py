@@ -1,3 +1,4 @@
+
 import time
 import pandas as pd
 import numpy as np
@@ -109,7 +110,17 @@ def user_stats(df):
 
 
     # Display counts of gender
+df1 = (df.groupby('Title')['Age']
 
+         .agg([('Age','mean'),('#People','size')])
+
+         .sort_values(by='Age',ascending=False))
+
+df2 = pd.crosstab(df['Title'], df['Sex']).add_suffix('_avg')
+
+df = df1.join(df2)
+
+print (df)
 
     # Display earliest, most recent, and most common year of birth
 
