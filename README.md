@@ -1,11 +1,11 @@
 ### Date created
-December 20th, 2020
+22/12/2020
 
 ### Project Title
 Docs
 
 ### Description
-Describe what your project is about and what it does
+Changes to documentation
 
 ### Files used
 Include the files used
